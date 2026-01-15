@@ -1,3 +1,0 @@
-python-hcl2
-ipaddress
-streamlit
