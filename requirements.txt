@@ -1,0 +1,6 @@
+streamlit
+pyhcl2
+networkx
+boto3
+reportlab
+streamlit-agraph
