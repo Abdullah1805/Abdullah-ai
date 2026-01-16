@@ -1,0 +1,14 @@
+aegispath/
+├── app.py                     # Streamlit UI
+├── engine/
+│   ├── policy_engine.py       # Allow / Deny / Wildcards / Conditions
+│   ├── graph_builder.py       # Attack Graph + BFS
+│   ├── target_resolver.py     # Dynamic Admin Detection
+│   ├── scorer.py              # Risk Scoring
+│   ├── managed_policy.py      # AWS Managed Policies
+│   └── secrets_scanner.py     # Secret Detection (Safe)
+├── report/
+│   └── pdf_report.py          # Executive PDF
+├── parsers/
+│   └── terraform_parser.py    # HCL Safe Parser
+└── requirements.txt
